@@ -1,10 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import 'tachyons';
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./app";
+import "./index.css";
+import "tachyons";
 
-ReactDOM.render(
-  <h1>hello</h1>,
-  document.getElementById('root')
-);
-
+ReactDOM.render(<App />, document.getElementById("root"));
